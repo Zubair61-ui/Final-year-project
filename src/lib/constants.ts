@@ -1,0 +1,4 @@
+export const GOOGLE_CLIENT_ID = "216110921902-k1njv2gotlj65qt6hr0av4e74eqbm3hm.apps.googleusercontent.com";
+export const OAUTH_REDIRECT_URL = "http://localhost:3000/api/auth/callback/google";
+
+export const GOOGLE_AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth?client_id=216110921902-k1njv2gotlj65qt6hr0av4e74eqbm3hm.apps.googleusercontent.com&scope=openid+email+profile&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fapi%2Fauth%2Fcallback%2Fgoogle&prompt=consent&access_type=offline&state=e_aa4xXMOEShTybdsn_G72btNc2MCxfaZScHidAwuzI&code_challenge=BFGy9GqPJJ4fA-Ovk2612j0fNNEPbfNIlp5squ7pPrA&code_challenge_method=S256&service=lso&o2v=2&flowName=GeneralOAuthFlow";
