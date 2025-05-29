@@ -7,6 +7,8 @@ import { Provider } from "@/components/Providers";
 import { Toaster } from "@/components/ui/toaster";
 
 const lexend = Lexend({ subsets: ["latin"] });
+export const runtime = "edge";
+
 
 export const metadata: Metadata = {
   title: "AI Course Generator",
